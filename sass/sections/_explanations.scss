@@ -1,0 +1,46 @@
+.explanations {
+  padding: 48px 20px;
+}
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  &__item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 28px 14px 28px 30px;
+    margin: 12px 2px 12px 14px;
+    color: lighten($dark-gray, 30%);
+    border-radius: 22px;
+    font-weight: $font-weight-semibold;
+    background-color: $light-gray;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    &:hover {
+      background-color: lighten($primary, 35%);
+      color: $primary;
+    }
+    & span {
+      color: $dark-gray;
+    }
+    & i {
+      margin-right: 22px;
+      font-size: calc($font-size-small + 6px);
+    }
+  }
+  &__pin {
+    display: flex;
+    position: absolute;
+    left: -14px;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: $primary;
+    color: $white;
+    font-size: $font-size-small;
+  }
+}
