@@ -1,0 +1,24 @@
+.cta {
+  display: flex;
+  align-items: center;
+  height: 290px;
+  background-color: $light-gray;
+  text-align: center;
+  &__items {
+    position: relative;
+    top: -4px;
+    margin: 0 auto;
+  }
+  & h1 {
+    font-size: $h2-size;
+    margin-bottom: 20px;
+  }
+  & p {
+    font-size: $h4-size;
+    color: lighten($dark-gray, 30%);
+    margin-bottom: 36px;
+  }
+  & .main-button {
+    margin: 0 auto;
+  }
+}

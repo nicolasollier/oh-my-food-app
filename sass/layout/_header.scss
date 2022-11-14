@@ -1,0 +1,13 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+
+    background-color: $white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    &__brand {
+        width: 160px;
+        margin-top: 12px;
+    }
+}

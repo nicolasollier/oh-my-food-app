@@ -1,0 +1,21 @@
+// Abstract Files
+@import "abstract/_mixins";
+@import "abstract/_variables";
+
+// Core Files
+@import "core/_reset";
+@import "core/_typography";
+
+// Components Files
+@import "components/_banner";
+@import "components/_buttons";
+
+// Layout Files
+@import "layout/_header";
+
+// Section Files
+@import "sections/_cta";
+
+body {
+  font-family: $body-font;
+}
