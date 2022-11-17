@@ -1,7 +1,6 @@
 /.idea/.gitignore
 /.idea/modules.xml
 /.idea/oh-my-food-app.iml
-/package.json
 /.idea/vcs.xml
 /.idea/watcherTasks.xml
 /public/css/main.css.map
