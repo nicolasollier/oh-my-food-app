@@ -12,6 +12,7 @@
 
 // Layout Files
 @import "layout/_header";
+@import "layout/_footer";
 
 // Section Files
 @import "sections/_cta";
@@ -20,4 +21,8 @@
 
 body {
   font-family: $body-font;
+}
+
+a {
+    text-decoration: none;
 }
