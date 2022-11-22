@@ -52,11 +52,25 @@
           font-size: calc($h4-size - 1px);
           color: lighten($dark-gray, 20%);
         }
-        & svg {
+        & i {
           position: absolute;
-          width: 24px;
-          top: 30%;
+          font-size: 24px;
+          top: 32%;
           right: 22px;
+
+          color: transparent;
+          transition: .4s ease;
+          background-position-y: 100px;
+          background-repeat: no-repeat;
+          background-image: $ic-bg-gradient;
+          -webkit-background-clip: text;
+          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-color: $dark-gray;
+          &:hover {
+            background-position: 0;
+            -webkit-text-stroke-width: 0;
+            -webkit-text-stroke-color: transparent;
+          }
         }
       }
     }
