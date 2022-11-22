@@ -69,6 +69,7 @@
           -webkit-background-clip: text;
           -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: $dark-gray;
+          animation: like 0.5s 1;
           &:hover {
             background-position: 0;
             -webkit-text-stroke-width: 0;
@@ -78,4 +79,10 @@
       }
     }
   }
+}
+
+@-webkit-keyframes like {
+  0%   { transform: scale(1); }
+  90%   { transform: scale(1.4); }
+  100% { transform: scale(1.2); }
 }
