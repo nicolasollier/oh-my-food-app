@@ -1,0 +1,43 @@
+.loader {
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: $light-gray;
+  animation: hide 4s;
+}
+
+.loader-wheel {
+  animation: spin 1s infinite linear;
+  border: 2px solid darken($light-gray, 2%);
+  border-left: 4px solid $primary;
+  border-radius: 50%;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
