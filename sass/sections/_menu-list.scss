@@ -111,13 +111,15 @@
       font-weight: $font-weight-normal;
       font-family: $body-font;
       color: lighten($dark-gray, 20%);
+      height: 18px;
+      margin-right: 2px;
       margin-bottom: 6px;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
     }
     &__price {
-      font-size: calc($body-font-size + 1px);
+      font-size: calc($body-font-size + 2px);
       font-weight: $font-weight-bold;
       font-family: $body-font;
       margin-bottom: 6px;
