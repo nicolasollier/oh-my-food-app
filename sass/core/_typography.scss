@@ -1,11 +1,11 @@
 // Font Imports
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 // Font Stacks
 $body-font: 'Roboto', -apple-system, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !default;
-
-// Typography variables
+$header-font: 'Shrikhand', -apple-system, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !default;
 
 // Heading sizes
 $h00-size: 48px !default;
