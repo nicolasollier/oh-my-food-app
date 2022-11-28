@@ -3,8 +3,8 @@
   top: -55px;
   border-radius: 34px 34px 0 0;
   margin-bottom: -55px;
+  padding-bottom: 34px;
   background-color: $light-gray;
-
   &__header {
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,6 @@
       }
     }
   }
-
   &__section{
     display: flex;
     flex-direction: column;
@@ -56,11 +55,10 @@
         margin-top: 6px;
       }
     }
-    &:nth-last-child(1) {
-      padding-bottom: 34px;
+    &:nth-last-child(n) {
+      margin-bottom: 34px;
     }
   }
-
   &__item {
     position: relative;
     margin: 6px 0;
@@ -125,6 +123,10 @@
       font-family: $body-font;
       margin-bottom: 6px;
     }
+  }
+  & .main-button {
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
