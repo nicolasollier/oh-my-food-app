@@ -65,7 +65,7 @@
     border-radius: 14px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     background-color: $tertiary;
-    animation: .3s ease-in appearIn;
+    animation: .1s ease-in appearIn;
     cursor: pointer;
     overflow: hidden;
     &:hover > .menu-list__item__content  {
