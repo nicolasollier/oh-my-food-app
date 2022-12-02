@@ -85,6 +85,9 @@
     &:nth-child(4) {
       animation-delay: .8s;
     }
+    &:nth-child(5) {
+      animation-delay: 1s;
+    }
     & .fa-circle-check {
       z-index: 5;
       position: absolute;
