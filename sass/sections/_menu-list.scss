@@ -70,6 +70,9 @@
     opacity: 0;
     cursor: pointer;
     overflow: hidden;
+    &:hover > .fa-circle-check {
+      animation: .4s cubic-bezier(.47,0,.74,.71) barrelroll;
+    }
     &:hover > .menu-list__item__content  {
       width: 82%;
     }
@@ -91,7 +94,7 @@
     & .fa-circle-check {
       z-index: 5;
       position: absolute;
-      right: 16px;
+      right: 18px;
       top: 36%;
       font-size: 24px;
       color: $white;
@@ -156,4 +159,9 @@
 @-webkit-keyframes appearIn {
   from { opacity: 0; top: 20px; }
   to { opacity: 1; top: 0; }
+}
+
+@-webkit-keyframes barrelroll {
+  from { transform: rotate(0deg); right: -18px}
+  to { transform: rotate(360deg); right: 18px;}
 }
