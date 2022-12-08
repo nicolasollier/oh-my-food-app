@@ -1,10 +1,14 @@
 .restaurants {
-  padding: 60px 20px 40px 20px;
+  padding: 48px 20px;
   background-color: $light-gray;
   &__card-list {
     display: flex;
     flex-direction: column;
-    margin-top: 22px;
+    margin: 0 auto;
+    max-width: $max-width;
+    &__wrapper {
+      margin-top: 10px;
+    }
     & a {
       text-decoration: none;
       margin-top: 20px;
@@ -17,6 +21,7 @@
       width: 100%;
       position: relative;
       height: 256px;
+      margin-top: 20px;
       border-radius: 15px;
       overflow: hidden;
       background-color: $white;

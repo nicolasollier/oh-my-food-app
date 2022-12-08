@@ -1,5 +1,7 @@
 .explanations {
   padding: 48px 20px;
+  max-width: $max-width;
+  margin: 0 auto;
 }
 .steps-list {
   display: flex;
