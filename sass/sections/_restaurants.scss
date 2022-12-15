@@ -21,10 +21,11 @@
       width: 100%;
       position: relative;
       height: 256px;
+      top: 0;
       margin-top: 20px;
       border-radius: 15px;
       overflow: hidden;
-      transition: transform .4s ease-in;
+      transition: top .2s ease-in;
       background-color: $white;
       box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.1);
       cursor: pointer;

@@ -7,10 +7,10 @@
   padding: 16px 20px;
   color: $white;
   transition: .2s ease-in-out;
-  background: -webkit-linear-gradient(100deg, $primary 12%,$secondary 92%);
+  background: linear-gradient(353deg, $primary 12%,$secondary 92%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   &:hover {
-    background: -webkit-linear-gradient(100deg, lighten($primary, 2%) 12%,lighten($secondary, 2%) 92%);
+    background: linear-gradient(353deg, lighten($primary, 2%) 12%,lighten($secondary, 2%) 92%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   }
 }
